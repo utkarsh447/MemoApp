@@ -1,0 +1,20 @@
+{% extends 'layout.server.view.html' %}
+
+{% block content %}
+	<section data-ui-view></section>
+{% endblock %}
+
+
+<script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDjqmAD8Io3ki_vB2cJEJ9sL4zGE2fDMfk",
+    authDomain: "meantest1-c660a.firebaseapp.com",
+    databaseURL: "https://meantest1-c660a.firebaseio.com",
+    projectId: "meantest1-c660a",
+    storageBucket: "meantest1-c660a.appspot.com",
+    messagingSenderId: "298991186560"
+  };
+  firebase.initializeApp(config);
+</script>
